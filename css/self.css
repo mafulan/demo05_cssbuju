@@ -1,0 +1,208 @@
+header,section,footer{
+    width: 1100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    height: 96px;
+}
+header{
+    z-index: 9;
+}
+section{
+    background-color: #f8f8f8;
+    border-bottom: 1px  #e9e9e9 solid;
+}
+header .logo{
+    position: absolute;
+    left: 0;
+    top: 7px;
+}
+.nav{
+    width: 810px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.nav li{
+    width: 90px;
+    float: left;
+    position: relative;
+}
+.nav a{
+    display: block;
+    height: 96px;
+    text-align: center;
+    line-height: 96px;
+    font-size: 14px;
+    color: #1a1b18;
+    transition: all 0.3s linear;
+}
+.nav a:hover{
+    color: white;
+    background-color: red;
+}
+.nav li div{
+    width: 1130px;
+    height: 60px;
+    background-color: #5c3a3d;
+    position: absolute;
+    top: 96px;
+    left: 0;
+    display: none;
+}
+
+section .banner{
+    display: block;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-bottom: 20px;
+}
+section .map{
+    width:1100px;
+    height: 555px;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+.wechat{
+    width: 277px;
+    border: 1px  #d9d9d9 solid;
+    padding-top: 7px;
+    padding-left: 8px;
+    float: left;
+}
+.wechat .p1{
+    font-size: 14px;
+    padding-top: 45px;
+    padding-right: 14px;
+    float: right;
+    text-align: center;
+    color: #4b4b4b;
+}
+.nav1{
+    width: 490px;
+    padding-left: 22px;
+    float: left;
+    position: relative;
+}
+.nav1 .p2{
+    width: 200px;
+    padding-top: 12px;
+    padding-left: 3px;
+    color: 14px;
+    color: #4b4b4b;
+    padding-bottom: 25px;
+}
+.nav1 .p3{
+    
+    padding-top: 12px;
+    color: 14px;
+    color: #4b4b4b;
+    float:right;
+    position: absolute;
+    right: 20px;
+    top: 0;
+
+}
+.nav1 a{
+    display: block;
+    padding-left: 15px;
+    width: 280px;
+    color: #4b4b4b;
+    line-height: 20px;
+    letter-spacing: 0.1em;
+    font-size: 12px;
+}
+.nav1 a:hover{
+    color: red;
+}
+.nav1 .ap1{
+   font-size: 12px;
+   color: #9e9e9e;
+   line-height: 20px;
+   letter-spacing: 0.1em;
+   position: absolute;
+   right: 20px;
+   top: 52px;
+}
+.nav1 .ap2{
+   font-size: 12px;
+   color: #9e9e9e;
+   line-height: 20px;
+   letter-spacing: 0.1em;
+   position: absolute;
+   right: 20px;
+   top: 72px;
+}.nav1 .ap3{
+   font-size: 12px;
+   color: #9e9e9e;
+   line-height: 20px;
+   letter-spacing: 0.1em;
+   position: absolute;
+   right: 20px;
+   top: 92px;
+}
+.nav1 .ap4{
+   font-size: 12px;
+   color: #9e9e9e;
+   line-height: 20px;
+   letter-spacing: 0.1em;
+   position: absolute;
+   right: 20px;
+   top: 112px;
+}
+
+
+.zutu{
+float:right;
+position: relative;
+
+}
+/* section .img1{
+    float:right;
+} */
+.rxzt{
+    width: 332px;
+    height: 35px;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    line-height: 35px;
+    background-color: red;
+    opacity: 0.5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+   
+}
+footer .p11{
+    width: 500px;
+    margin-top: 39px;
+    padding-left: 8px;
+    font-size: 15px;
+    color: #4b4b4b;
+    float: left;
+}
+footer .p22{
+   
+    margin-top: 39px;
+    font-size: 15px;
+    color: #4b4b4b;
+    float: right;
+}
+footer .p33{
+    width: 700px;
+    margin-top: 18px;
+    padding-left: 8px;
+    font-size: 15px;
+    color: #4b4b4b;
+    float: left;
+}
+footer .p44{
+   margin-right: 9px;
+   margin-top: 18px;
+   font-size: 15px;
+   color: #4b4b4b;
+   float: right;
+}
+
